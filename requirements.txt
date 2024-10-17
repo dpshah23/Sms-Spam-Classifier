@@ -1,5 +1,4 @@
 nltk
-pickle
 flask
 numpy
 pandas
