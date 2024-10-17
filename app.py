@@ -4,8 +4,8 @@ from nltk.corpus import stopwords
 import string
 from nltk.stem.porter import PorterStemmer
 import nltk
-nltk.download('punkt')
-nltk.download('stopwords')
+
+nltk.data.path.append('./nltk_data')
 
 ps=PorterStemmer()
 
