@@ -6,4 +6,4 @@ seaborn
 matplotlib
 wordcloud
 gunicorn
-sklearn
+scikit-learn
