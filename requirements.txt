@@ -1,0 +1,8 @@
+nltk
+pickle
+flask
+numpy
+pandas
+seaborn
+matplotlib
+wordcloud
