@@ -14,7 +14,10 @@
       <span class="navbar-brand mb-0 h1">SMS Spam Classifier</span>
     </div>
   </nav>
-    
+  <div class="container mt-5">
+    <h3>Instructions</h3>
+    <p>Enter the SMS in the text area and click on the predict button to check if the SMS is spam or not.</p>   
+</div>
     <div class="container mt-5">
         <div class="row">
         <div class="col-md-6">
@@ -23,11 +26,12 @@
             <label for="sms">Enter SMS</label>
             <textarea class="form-control" name="content" id="sms" rows="3"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Predict</button>
+            <button type="submit" class="btn btn-primary mt-3">Predict</button>
             </form>
         </div>
 
-        <div class="col-md-6">
+        
+        <div class="container mt-4">
             <h3>Result</h3>
             <p>{{ prediction_text }}</p>
         </div>
